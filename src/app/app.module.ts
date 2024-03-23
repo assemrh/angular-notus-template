@@ -27,8 +27,8 @@ import { ProfileComponent } from './views/profile/profile.component';
 
 import { AdminNavbarComponent } from './components/navbars/admin-navbar/admin-navbar.component';
 import { AuthNavbarComponent } from './components/navbars/auth-navbar/auth-navbar.component';
-import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
-import { CardLineChartComponent } from "./components/cards/card-line-chart/card-line-chart.component";
+//import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
+//import { CardLineChartComponent } from "./components/cards/card-line-chart/card-line-chart.component";
 import { CardPageVisitsComponent } from './components/cards/card-page-visits/card-page-visits.component';
 import { CardProfileComponent } from './components/cards/card-profile/card-profile.component';
 import { CardSettingsComponent } from './components/cards/card-settings/card-settings.component';
@@ -52,8 +52,6 @@ import { UserDropdownComponent } from './components/dropdowns/user-dropdown/user
   declarations: [
     AppComponent,
     DashboardComponent,
-    CardBarChartComponent,
-    CardLineChartComponent,
     IndexDropdownComponent,
     PagesDropdownComponent,
     TableDropdownComponent,
